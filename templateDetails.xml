@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="4.0" type="template" client="site" method="upgrade">
+    <name>project3</name>
+    <title>Project 3 Template</title>
+    <creationDate>2025-09-04</creationDate>
+    <author>Tu Nombre</author>
+    <authorEmail>tuemail@dominio.com</authorEmail>
+    <authorUrl>https://tusitio.com</authorUrl>
+    <copyright>Copyright (C) 2025</copyright>
+    <license>GNU General Public License version 2 or later</license>
+    <version>1.0.0</version>
+    <description>Plantilla Joomla basada en React/Vite (Project 3).</description>
+
+    <files>
+        <filename>index.php</filename>
+        <folder>dist</folder>
+        <filename>templateDetails.xml</filename>
+    </files>
+
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.tpl_project3.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.tpl_project3.sys.ini</language>
+    </languages>
+
+    <styles>
+        <style>default</style>
+    </styles>
+</extension>
